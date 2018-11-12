@@ -1,6 +1,6 @@
 package com.github.bpazy.home.article;
 
-import com.github.bpazy.home.article.user.User;
+import com.github.bpazy.home.api.user.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

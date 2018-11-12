@@ -1,4 +1,4 @@
-package com.github.bpazy.home.article.user;
+package com.github.bpazy.home.api.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
