@@ -13,7 +13,7 @@ public class UserController {
     private UserService userService;
 
     @SneakyThrows
-    @RequestMapping("/{userId}")
+    @RequestMapping("/findUser/{userId}")
     public User findUser(@PathVariable String userId) {
         return userService.findUser(userId);
     }

@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class UserClientFallback implements UserClient {
     @Override
     public User findUser(String userId) {
-        return User.builder().build();
+        return null;
     }
 }

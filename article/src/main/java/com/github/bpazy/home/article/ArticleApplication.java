@@ -4,14 +4,12 @@ import com.github.bpazy.common.EnableCommon;
 import com.github.bpazy.home.api.EnableApi;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.client.SpringCloudApplication;
 
 @EnableApi
 @EnableCommon
-@EnableDiscoveryClient
-@SpringBootApplication
 @MapperScan("com.github.bpazy.home.article")
+@SpringCloudApplication
 public class ArticleApplication {
 
     public static void main(String[] args) {
