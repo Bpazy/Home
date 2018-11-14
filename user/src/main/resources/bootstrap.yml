@@ -1,3 +1,7 @@
 spring:
-  application:
-    name: user-client
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-service
+      name: test

@@ -10,7 +10,7 @@ spring:
       routes:
       - predicates:
         - Path=/user/**
-        uri: lb://user-client
+        uri: lb://user-service
       - predicates:
         - Path=/article/**
-        uri: lb://article-client
+        uri: lb://article-service
