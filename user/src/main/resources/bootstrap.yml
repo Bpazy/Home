@@ -3,5 +3,4 @@ spring:
     config:
       discovery:
         enabled: true
-        service-id: config-service
-      name: test
+        service-id: service-config

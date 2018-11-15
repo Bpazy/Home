@@ -1,8 +1,8 @@
 spring:
   application:
-    name: article-service
+    name: service-article
   cloud:
     config:
       discovery:
         enabled: true
-        service-id: config-service
+        service-id: service-config
