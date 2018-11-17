@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 @Slf4j
 @Order
 @Component
-public class TokenFilter implements GlobalFilter {
+public class TokenGlobalFilter implements GlobalFilter {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         String token = Cookies.findCookie(exchange.getRequest(), "token");
