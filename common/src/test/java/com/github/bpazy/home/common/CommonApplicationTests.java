@@ -1,4 +1,4 @@
-package com.github.bpazy.common;
+package com.github.bpazy.home.common;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

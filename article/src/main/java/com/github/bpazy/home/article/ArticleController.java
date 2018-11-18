@@ -13,7 +13,7 @@ public class ArticleController {
     @Autowired
     private UserApi userApi;
 
-    @Acl(login = Acl.Login.Login)
+    @Acl(login = Acl.Login.Anon)
     @GetMapping("/test")
     public Article test() {
         return Article.builder()

@@ -1,6 +1,6 @@
 package com.github.bpazy.home.user;
 
-import com.github.bpazy.common.spring.Springs;
+import com.github.bpazy.home.common.spring.Springs;
 import org.junit.AfterClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;

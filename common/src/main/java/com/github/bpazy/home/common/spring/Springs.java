@@ -1,4 +1,4 @@
-package com.github.bpazy.common.spring;
+package com.github.bpazy.home.common.spring;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Configurable;

@@ -1,6 +1,6 @@
 package com.github.bpazy.home.article;
 
-import com.github.bpazy.common.EnableCommon;
+import com.github.bpazy.home.common.EnableCommon;
 import com.github.bpazy.home.acl.EnableAcl;
 import com.github.bpazy.home.api.EnableApi;
 import org.mybatis.spring.annotation.MapperScan;

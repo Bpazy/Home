@@ -1,4 +1,4 @@
-package com.github.bpazy.common.util;
+package com.github.bpazy.home.common.util;
 
 import org.springframework.http.HttpCookie;
 import org.springframework.http.server.reactive.ServerHttpRequest;

@@ -1,4 +1,4 @@
-package com.github.bpazy.common.spring;
+package com.github.bpazy.home.common.spring;
 
 import com.netflix.hystrix.exception.HystrixBadRequestException;
 import feign.FeignException;

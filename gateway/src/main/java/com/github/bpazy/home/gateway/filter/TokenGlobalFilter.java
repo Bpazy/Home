@@ -1,6 +1,6 @@
 package com.github.bpazy.home.gateway.filter;
 
-import com.github.bpazy.common.util.Cookies;
+import com.github.bpazy.home.common.util.Cookies;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;

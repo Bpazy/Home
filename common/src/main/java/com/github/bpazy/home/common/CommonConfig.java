@@ -1,6 +1,6 @@
-package com.github.bpazy.common;
+package com.github.bpazy.home.common;
 
-import com.github.bpazy.common.spring.PermissionExceptionInterceptor;
+import com.github.bpazy.home.common.spring.PermissionExceptionInterceptor;
 import feign.codec.Decoder;
 import org.springframework.beans.factory.ObjectFactory;
 import org.springframework.beans.factory.annotation.Autowired;
