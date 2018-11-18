@@ -1,16 +1,2 @@
 server:
   port: 8080
-
-spring:
-  cloud:
-    gateway:
-      default-filters:
-      - StripPrefix=1
-
-      routes:
-      - predicates:
-        - Path=/user/**
-        uri: lb://service-user
-      - predicates:
-        - Path=/article/**
-        uri: lb://service-article

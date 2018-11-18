@@ -1,5 +1,6 @@
 package com.github.bpazy.home.article;
 
+import com.github.bpazy.home.acl.Acl;
 import com.github.bpazy.home.api.user.UserApi;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +13,7 @@ public class ArticleController {
     @Autowired
     private UserApi userApi;
 
+    @Acl(login = Acl.Login.Login)
     @GetMapping("/test")
     public Article test() {
         return Article.builder()

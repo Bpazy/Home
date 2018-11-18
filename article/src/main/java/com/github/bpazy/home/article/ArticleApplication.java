@@ -1,11 +1,13 @@
 package com.github.bpazy.home.article;
 
 import com.github.bpazy.common.EnableCommon;
+import com.github.bpazy.home.acl.EnableAcl;
 import com.github.bpazy.home.api.EnableApi;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 
+@EnableAcl
 @EnableApi
 @EnableCommon
 @MapperScan("com.github.bpazy.home.article")

@@ -23,7 +23,7 @@ public class TokenGlobalFilter implements GlobalFilter {
         if (StringUtils.isBlank(token)) {
             ServerHttpResponse response = exchange.getResponse();
             response.setStatusCode(HttpStatus.UNAUTHORIZED);
-            response.addCookie(ResponseCookie.from("token", "fuck you").build());
+            response.addCookie(ResponseCookie.from("token", "fuckyou").build());
         }
         return chain.filter(exchange);
     }
